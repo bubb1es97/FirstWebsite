@@ -1,21 +1,27 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+*{
+    box-sizing: border-box;
     margin: 0;
-    min-height: 100vh;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #8ef6e4;
 } 
 
 .header{
-    background-color: #1f2937;
+    background-color: #edb1f1;
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    padding-right: 10px;
+    padding: 0 130px;
+    gap: 10px;
+    
 }
 
 .logo{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 800;
+    font-weight: bold;
     color: aliceblue;
     font-size: 32px;
     display: flex;
@@ -35,8 +41,44 @@ ul{
     padding: 0;
     display: flex;
     gap: 32px;
+    font-weight: bold;
 }
 
 a{
     text-decoration: none;
+}
+
+.firstcontainer{
+    background-color: #9896f1;
+    color: white;
+    height: 300px;
+    padding: 0 130px;
+    display: flex;
+    flex-basis: auto;
+    align-items: center;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    margin-right: 8px;
+}
+.firstcontainer .welcome h2{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+img{
+    display: flex;
+    flex: 1;
+    height: 250px;
+    border: 2px solid white;
+}
+
+button{
+    width: 150px;
 }
